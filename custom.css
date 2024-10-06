@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 40px;
+}
+
+.column{
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+
+.column img{
+  height: 500px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.column img:hover{
+  filter: grayscale(1);
+  transform: scale(1.03);
+}
